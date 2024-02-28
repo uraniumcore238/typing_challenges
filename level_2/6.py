@@ -1,7 +1,9 @@
+from typing import Dict
+
 from constants import ___
 
 
-def is_name_male(name: ___, name_gender_map: ___) -> ___:
+def is_name_male(name: str, name_gender_map: Dict[str, bool]) -> bool | None:
     pass
 
 
