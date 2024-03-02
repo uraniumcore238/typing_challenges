@@ -2,8 +2,9 @@ import datetime
 
 from constants import ___
 
+Raw_receipt= str
 
-def parse_receipt(raw_receipt: str) -> tuple[int, datetime.date, list[tuple[str, int, float]]]:
+def parse_receipt(raw_receipt: Raw_receipt) -> tuple[int, datetime.date, list[tuple[str, int, float]]]:
     pass
 
 

@@ -2,8 +2,10 @@ from typing import Dict
 
 from constants import ___
 
+Users_ids = set[int]
+Users_ids_to_users_map = dict[int, tuple[str, int, list[int]]]
 
-def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: Dict[int, tuple[str, int, list[int]]]) -> int:
+def calculate_total_spent_for_users(users_ids: Users_ids, users_ids_to_users_map: Users_ids_to_users_map) -> int:
     pass
 
 
