@@ -5,6 +5,7 @@ from constants import ___
 Product: TypeAlias = tuple[str, int, float]
 Receipt: TypeAlias = tuple[int, datetime.date, list[Product]]
 
+
 def parse_receipt(raw_receipt: str) -> Receipt:
     pass
 
