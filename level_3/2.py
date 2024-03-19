@@ -1,7 +1,12 @@
+from typing import TypeAlias, TypedDict
+
 from constants import ___
 
 
-def calculate_total_spent_for_user(user: ___) -> ___:
+User: TypeAlias = TypedDict[str, str, int, str, list[int]]
+
+
+def calculate_total_spent_for_user(user: User) -> int:
     # попробуй тут воспользовать typing.TypedDict
     pass
 
