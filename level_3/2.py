@@ -3,8 +3,10 @@ from typing import TypeAlias, TypedDict
 from constants import ___
 
 
-User: TypeAlias = TypedDict[str, str, int, str, list[int]]
-
+class User(TypedDict):
+    name: str
+    age: int
+    transactions_sums: list[int]
 
 def calculate_total_spent_for_user(user: User) -> int:
     # попробуй тут воспользовать typing.TypedDict
